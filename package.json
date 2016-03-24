@@ -1,7 +1,7 @@
 {
   "name": "leanplum-node-wrapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A wrapper for the Leanplum API",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist --ignore node_modules",
