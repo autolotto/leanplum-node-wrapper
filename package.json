@@ -1,19 +1,24 @@
 {
-    "name": "leanplum-node-wrapper",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/autolotto/leanplum-node-wrapper.git"
-    },
-    "author": "Nicolas Iglesias <nico@webpolis.com.ar>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/autolotto/leanplum-node-wrapper/issues"
-    },
-    "homepage": "https://github.com/autolotto/leanplum-node-wrapper#readme"
+  "name": "leanplum-node-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autolotto/leanplum-node-wrapper.git"
+  },
+  "author": "Nicolas Iglesias <nico@webpolis.com.ar>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autolotto/leanplum-node-wrapper/issues"
+  },
+  "homepage": "https://github.com/autolotto/leanplum-node-wrapper#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "superagent": "^1.8.3",
+    "superagent-bluebird-promise": "^3.0.0"
+  }
 }
